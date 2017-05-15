@@ -1,0 +1,71 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+$dev-pcolor: #6c7279;
+
+.developers
+{
+	font-family: 'Raleway', sans-serif;
+	margin-top: 6.3125em;
+}
+.dev-unit
+{
+	margin-top: 6.3125em;
+}
+.dev-name
+{
+	margin-top: 1.938em;
+	font-size: 1.375em;
+	color: #2d3033;
+}
+.dev-pos
+{
+	margin-top: 1em;
+	text-transform: uppercase;
+	font-size: 0.813em;
+	color: #e84545;
+}
+
+.dev-descr
+{
+	margin-top: 1.875em;
+	color: $dev-pcolor;
+	/*margin: auto;*/
+	font-size: 0.875em;
+}
+.dev-socials
+{
+	margin-top: 1.9375em;
+	display: inline-block;
+}
+.fotorama
+{
+	display: none;
+}
+@media screen and (min-width: 1170px) {
+	
+	.fotorama
+{
+	display: block;
+}
+.dev-unit
+{
+	/*width: 16.875em;*/
+}
+.dev-name
+{
+	/*text-align: left;*/
+}
+.dev-pos
+{
+	/*text-align: left;*/
+}
+.dev-descr
+{
+	/*text-align: left;*/
+	max-width: 16.875em;
+}
+
+}

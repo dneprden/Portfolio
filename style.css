@@ -1,0 +1,697 @@
+*
+{
+  padding: 0;
+  margin: 0;
+}
+
+body
+{
+  font-size: 100%;
+}
+
+@font-face {
+    font-family: Contry; 
+    src: url(10447.ttf);
+  }
+
+
+.img-responsible
+{
+  max-width: 100%;
+}
+
+.header
+{
+  background: url(front-end.jpg)no-repeat;
+  background-size: cover;
+}
+
+.logo-d
+{
+  display: none;
+}
+
+.name-1
+{
+  color: red;
+}
+
+.name-2
+{
+
+}
+
+.logo
+{
+    float: left;
+    text-decoration: none;
+    color: black;
+    font-family: "contry";
+    font-size: 2.2em;
+        padding-top: 0.5em;
+    
+}
+
+.humburger-ico
+{
+  border:1px solid #fff;
+  display: inline-block;
+  padding: 0.3125em;
+  border-radius: 4px;
+}
+
+.humburger-ico span
+{
+  display: block;
+  height: 4px;
+  width: 35px;
+  background: #fff;
+  margin-bottom: 4px;
+}
+
+.humburger-ico span:last-child
+{
+  margin-bottom: 0;
+}
+.header .navigation .navigation_menu {
+    display: none; }
+  .header .navigation .hamburger_menu {
+    border: 3px solid #fff;
+    display: inline-block;
+    padding: 1em;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: .9em;
+    margin-left: -1.2em;
+    box-sizing: border-box; }
+    .header .navigation .hamburger_menu span {
+      display: block;
+      height: .2em;
+      width: 2em;
+      background: #fff;
+      margin-bottom: .4em; }
+    .header .navigation .hamburger_menu span:last-child {
+      margin-bottom: 0.09em; }
+  .header .navigation #humburger_menu {
+    display: none; }
+  .header .supermen {
+    color: #fff;
+    margin-bottom: 2em; }
+    .header .supermen a {
+      width: 7em;
+      height: 2em;
+      background: #c53030;
+      text-align: center;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 2em;
+      box-sizing: border-box;
+      font-family: 'Contry', sans-serif;
+      font-weight: lighter;
+      display: inline-block;
+      padding: .2em;
+      position: relative; }
+
+
+
+      .header .navigation #humburger_menu:checked ~ .navigation_menu {
+      display: inline-block;
+      transition: top 1s ease-out 0.5s;}
+
+.navigation_menu a
+{
+  text-decoration: none;
+  color: white;
+  font-family: "Contry";
+      padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    font-size: 2em;
+  
+}
+
+.navigation_menu a:hover
+{
+  color: #c38524;
+}
+.navigation_menu
+{
+position: absolute;
+    margin-right: 11em;
+    position: absolute;
+    right: 0.5em;
+    top: 2em;
+    font-size: 1.5em;
+
+}
+
+.navigation_menu li
+{
+list-style: none;
+padding-top: 0.5em;
+background: #2b1408;
+
+}
+
+.top-header-menu
+{
+  display: none;
+}
+
+.top-header
+{
+  padding: 0.625em;
+
+}
+
+.logo-m
+{
+  width: 90%;
+  margin: 0.125em;
+}
+
+.supermen-text
+{
+  text-transform: uppercase;
+  color: #fff;
+  font-size: /*4.0625em;*/ 2em;
+  padding: 0.46875em;
+  font-family: "Open sans";
+}
+
+.supermen-btn
+{
+  margin: 0.76923em;
+  width: 200px;
+  height: 50px;
+  background: #e84545;
+  border:none; 
+  text-align: center;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 0.8125em;
+  transition: all 0.5s ease;
+  outline: 0;
+}
+.resume-btn
+{
+  background: #45c1e8;
+}
+
+.resume-btn:hover
+{
+  background: #45a3e8;
+}
+.header p
+{
+  display: none;
+}
+
+.supermen-btn:hover
+{
+  background: #ff0000;
+}
+
+.services-block 
+{
+  font-family: "Contry", sans-serif;
+}
+
+.services-block img
+{
+  margin:1.875em 0; 
+}
+
+.portfolio-block img {
+    width: 27em;
+    height: 22em;
+  }
+
+.services-block h1
+{
+  font-size: 0.875em;
+  color: #2d3033;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-top: 2em;
+
+}
+
+.services-block p
+{
+  font-size: 0.875em;
+  color: #6c7279;
+  padding: 1.7857em 2.9375em;
+      padding-bottom: 4em;
+}
+
+.portfolio-block
+{
+  position: relative;
+  font-family: "Raleway", sans-serif;
+}
+
+
+.portfolio-block-cover,
+.portfolio-block-title,
+.portfolio-block-text
+{
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.portfolio-block img
+{
+  width: 18em;
+  height: 20em;
+  margin-bottom: -0.25em;
+}
+
+.portfolio-block:hover .portfolio-block-cover,
+.portfolio-block:hover .portfolio-block-title,
+.portfolio-block:hover .portfolio-block-text
+{
+  display: block;
+}
+
+.portfolio-block-cover
+{
+  background: #753131;
+  opacity: 0.9;
+}
+
+.portfolio-block span
+{
+  color: #fff;
+  font-size: 0.875em;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 20%;
+}
+
+.portfolio-block p
+{
+  color: #fff;  
+  font-size: 0.875em;
+  padding-top: 25%;
+}
+
+/*вторая часть проекта */
+
+.developers {
+  font-family: 'Raleway', sans-serif;
+  margin-top: 6.3125em; }
+
+.dev-unit {
+  margin-top: 6.3125em; }
+
+.dev-name {
+  margin-top: 1.938em;
+  font-size: 1.375em;
+  color: #2d3033; }
+
+.dev-pos {
+  margin-top: 1em;
+  text-transform: uppercase;
+  font-size: 0.813em;
+  color: #e84545; }
+
+.dev-descr {
+  margin-top: 1.875em;
+  color: #6c7279;
+  /*margin: auto;*/
+  font-size: 0.875em;
+  padding: 1.7857em 2.9375em; }
+
+
+.dev-socials {
+  margin-top: 1.9375em;
+  display: inline-block; }
+
+.fotorama {
+  display: none; }
+
+
+/*третья часть часть проекта */
+.question-text
+{
+  font-family: 'Open Sans', sans-serif;
+  text-transform: capitalize;
+  font-size: /*4.0625em*/ 2em;
+  padding:0.46875em;
+  color: #737577;
+}
+.download-text
+{
+  font-family: 'Open Sans', sans-serif;
+  text-transform: capitalize;
+  font-size: /*4.0625em*/ 1em;
+  padding:0.46875em;
+}
+.download-btn
+{
+  text-transform: uppercase;
+  width:200px;
+  height:50px;
+  background: #e84545;
+  border:none;
+  text-align: center;
+  color:#fff;
+  border-radius:3px;
+  cursor: pointer;
+  font-size: 0.8125em;
+  transition:all 0.3s ease;
+  outline: 0;
+  margin:0.7692em 0 4em;
+}
+
+.download-btn:hover
+{
+  background: #ff0000;
+}
+
+
+.footer-block
+{
+  font-family: 'Raleway', sans-serif;
+  background: #3a3e64;
+  background: url(wood_01.png);
+}
+
+.social-block img
+{
+  margin: 1.875em 0;
+}
+.social-block h3
+{
+  font-size:0.875em;
+  text-transform: uppercase;
+  font-weight:700;
+  padding-top: 1em;
+  color: #fff;
+}
+.social-block p 
+{
+  color:#6c7279;
+  font-size: 0.875em;
+  padding:1em 0;
+
+}
+
+.skills_block {
+  background: #fff;
+  color: black;
+  padding-bottom: 3em; }
+  .skills_block .skills {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin-top: 1em;
+    margin-bottom: 1em; }
+  .skills_block .skills_valuation .skills_bar {
+    list-style-type: none;
+    margin-left: 3%;
+    margin-top: 3em; }
+    .skills_block .skills_valuation .skills_bar .photoshop, .skills_block .skills_valuation .skills_bar .css3, .skills_block .skills_valuation .skills_bar .html5 {
+      position: relative;
+      height: 2em;
+      width: 80%;
+      background: #fff;
+      border-radius: 5px;
+      margin: 1.9em;
+      display: inline-block;
+      box-sizing: border-box; }
+      .skills_block .skills_valuation .skills_bar .photoshop span, .skills_block .skills_valuation .skills_bar .css3 span, .skills_block .skills_valuation .skills_bar .html5 span {
+        text-transform: uppercase;
+        color: black;
+        font-family: "Contry";
+        position: relative;
+        bottom: 1.8em;
+        letter-spacing: .3em;
+        font-family: tahoma, sans-serif;
+        font-weight: bolder; }
+      .skills_block .skills_valuation .skills_bar .photoshop p, .skills_block .skills_valuation .skills_bar .css3 p, .skills_block .skills_valuation .skills_bar .html5 p {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #402727;
+        display: inline-block;
+        height: 100%;
+        border-radius: 5px 0 0 5px; }
+      .skills_block .skills_valuation .skills_bar .photoshop .photoshop_bar, .skills_block .skills_valuation .skills_bar .css3 .photoshop_bar, .skills_block .skills_valuation .skills_bar .html5 .photoshop_bar {
+        width: 40%; }
+      .skills_block .skills_valuation .skills_bar .photoshop .css3_bar, .skills_block .skills_valuation .skills_bar .css3 .css3_bar, .skills_block .skills_valuation .skills_bar .html5 .css3_bar {
+        width: 60%; }
+      .skills_block .skills_valuation .skills_bar .photoshop .html5_bar, .skills_block .skills_valuation .skills_bar .css3 .html5_bar, .skills_block .skills_valuation .skills_bar .html5 .html5_bar {
+        width: 70%; }
+/*вторая (нижняя) часто футера начинается*/
+.copyright-block
+{
+  font-family: 'Raleway', sans-serif;
+  background: #2b1408;
+  
+}
+.copyright
+{
+  margin-bottom: 0.625em;
+}
+.copyright a
+{
+  text-decoration: none;
+  font-size: 0.625em;
+  padding-bottom: 0.625em;
+  color: #fff;
+
+}
+.copyright span
+{
+  display: block;
+  font-size: 0.625em;
+  color: #656671;
+  padding: 1.6875em 0 0.3125em;
+  
+}
+
+.copyright p
+{
+  font-size: 0.625em;
+  padding-bottom: 0.625em;
+  color: #656671;
+}
+
+/*изменения для десктопа*/
+
+
+
+
+@media screen and (min-width: 1024px) 
+{
+
+
+.logo {
+    float: left;
+    text-decoration: none;
+    color: black;
+    font-family: "contry";
+    font-size: 2.2em;
+    padding-top: 1.1em;
+}
+.header
+{
+  margin-bottom: 5.625em;
+}
+
+.top-header-menu
+{
+  display: block;
+}
+
+.top-header-menu ul
+{
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 1.1em;/*0.8125em;*/
+  font-family: "Contry", sans-serif;
+  padding-top: 2.8125em;
+  vertical-align: top;
+}
+
+.top-header-menu li
+{
+  display: inline;
+}
+
+.services-block h1
+{
+  font-size: 0.875em;
+  color: #2d3033;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-top: 0;
+}
+
+.services-block p
+{
+padding-bottom: 6em;
+}
+
+
+
+.top-header-menu a
+{
+  color: #fff;
+  text-decoration: none;
+  padding-left: 3.2em;
+}
+
+.top-header-menu a:hover
+{
+  color: blue;
+}
+
+.nav
+{
+  display: none;
+}
+  
+.logo-d
+{
+  padding-top: 2em;
+  display: block;
+}
+
+.logo-m
+{
+  display: none;
+}
+
+.supermen-text
+{
+  /*text-transform: uppercase;*/
+  color: #fff;
+  font-size: 4.0625em;
+  padding-top:1.5em;
+  font-family: "Contry";
+}
+
+.supermen-btn
+{
+  margin: 5.0625em 0 9.8125em 0;
+}
+
+.header p
+{
+  display: block;
+  color: #fff;
+  font-size: 1.375em;
+  font-family: "Raleway", sans-serif;
+}
+
+.top-header-border
+{
+  height: 0.0625em;
+  background: #fff;
+  opacity: 0.15; 
+  margin-top: 2.4375em;
+  display: block;
+
+}
+
+.pic-fix
+{
+  width: 90%;
+}
+.portfolio
+{
+  /*margin-top: 6.25em;*/
+}
+
+ .fotorama {
+    display: block; }
+
+  .dev-unit {
+    /*width: 16.875em;*/ }
+
+  .dev-name {
+    /*text-align: left;*/ }
+
+  .dev-pos {
+    /*text-align: left;*/ }
+
+  .dev-descr {
+    /*text-align: left;*/
+    /*max-width: 16.875em;*/ } 
+
+  .social-block 
+  {
+    display: inline-block;
+  }
+  .question-text
+  {
+    padding: 3.1875em 0 0;
+  }
+  .download-text
+  {
+    padding: 0.75em 0 0;
+  }
+  .download-btn
+  {
+    margin: 2.5em 0 6.375em;
+  }
+  .social-block h3
+  {
+    padding-top:4.375em;
+  }
+  .social-block p
+  {
+    padding-top: 1.5em;
+  }
+  .social-block img
+  {
+  margin: 1.5em 0 6.75em;
+  }
+  .copyright span
+  {
+    padding: 1.875em 0 0.75em;
+  }
+  .copyright p, a
+  {
+    padding-bottom: 1.875em;
+  }
+
+  .portfolio-block
+  {
+    margin-bottom: 2em;
+  }
+
+  .resume-btn
+  {
+    margin-bottom: 7em;
+    margin-top: 0em;
+  }
+
+  .skills_block .skills_valuation .skills_bar {
+    
+    margin-left: 25%;
+  }
+  .skill-my
+  {
+  padding-top: 6em;
+  }
+
+  .hamburger_menu
+  {
+    display: none;
+    }
+
+    .navigation
+    {
+      display: none;
+    }
+}
